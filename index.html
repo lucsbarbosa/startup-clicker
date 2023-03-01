@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=0.8">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="imagens/icone.png">
+        <title>Startup Clicker</title>
+    </head>
+
+    <body>
+        <div id="acoes">
+            <div id="elementosAcoes">
+                <ul>
+                    <p class="adicionar" id="adicionarMarketing"><i class="fas fa-plus-circle"></i></p>
+
+                    <li class="pontosXP">
+                        <img src="imagens/marketingIcon.png" class="icones">
+                        <span class="textoIcon">Marketing:
+                            <span id="valorMarketing">0</span>
+                        </span>
+                    </li>
+
+                    <p class="adicionar" id="adicionarVendas"><i class="fas fa-plus-circle"></i></p>
+        
+                    <li class="pontosXP">
+                        <img src="imagens/vendasIcon.png" class="icones">
+                        <span class="textoIcon">Vendas: 
+                            <span id="valorVendas">0</span>
+                        </span>
+                    </li>
+                    
+                    <p class="adicionar" id="adicionarInovacao"><i class="fas fa-plus-circle"></i></p>
+
+                    <li class="pontosXP">
+                        <img src="imagens/inovacaoIcon.png" class="icones">
+                        <span class="textoIcon">Inovação:
+                            <span id="valorInovacao">0</span>
+                        </span>
+                    </li>
+
+                    <p class="adicionar" id="adicionarUX"><i class="fas fa-plus-circle"></i></p>
+        
+                    <li class="pontosXP">
+                        <img src="imagens/uxIcon.png" class="icones">
+                        <span class="textoIcon">UX:
+                            <span id="valorUX">0</span>
+                        </span>
+                    </li>
+                </ul>
+        
+                <p id="checkpoint">
+                    <span id="checkpointTexto">Pivotar (não marcado)</span>
+                    <span id="custoPivote">0</span>
+                </p>
+        
+                <div id="comprasEUpgrades">
+                    <div id="botao1">Compras</div>
+                    <div id="botao2">Upgrades</div>
+                    <div id="opcoes">
+                        <div id="compras">
+
+                            <div id="compra1">
+                                <p class="botoesComprasEUpgrades" id="base3"><i class="fas fa-laptop-code"></i> Notebook</p>
+                                <span class="precoCompras">1000</span> 
+                            </div>
+
+                            <div id="compra2">
+                                <p class="botoesComprasEUpgrades" id="base3"><i class="fas fa-user"></i> Funcionários 1</p>
+                                <span class="precoCompras">1800</span> 
+                            </div>
+
+                            <div id="compra3">
+                                <p class="botoesComprasEUpgrades" id="base1"><i class="fas fa-home"></i> Casa</p>
+                                <span class="precoCompras">3000</span>
+                            </div>
+                            
+                            <div id="compra4">
+                                <p class="botoesComprasEUpgrades" id="base3"><i class="fas fa-desktop"></i> PC</p>
+                                <span class="precoCompras">4200</span> 
+                            </div>
+
+                            <div id="compra5">
+                                <p class="botoesComprasEUpgrades" id="base3"><i class="fas fa-user-friends"></i> Funcionários 2</p>
+                                <span class="precoCompras">6400</span> 
+                            </div>
+
+                            <div id="compra6">
+                                <p class="botoesComprasEUpgrades" id="base2"><i class="fas fa-building"></i> Prédio</p>
+                                <span class="precoCompras">10000</span>
+                            </div>
+
+                            <div id="compra7">
+                                <p class="botoesComprasEUpgrades" id="base3"><i class="fas fa-server"></i> Workstation</p>
+                                <span class="precoCompras">15000</span> 
+                            </div>
+
+                            <div id="compra8">
+                                <p class="botoesComprasEUpgrades" id="base3"><i class="fas fa-users"></i> Funcionários 3</p>
+                                <span class="precoCompras">20000</span> 
+                            </div>
+                            
+                            <div id="compra9">
+                                <p class="botoesComprasEUpgrades" id="base3"><i class="fas fa-city"></i> Complexo</p>
+                                <span class="precoCompras">30000</span> 
+                            </div>
+                        </div>
+                        <div id="upgrades">
+                            <div id="upgrade1">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-book"></i> Modo história</p>
+                                <span class="precoCompras">100</span>
+                            </div>
+
+                            <div id="upgrade2">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-search"></i> Pesquisa de mercado</p>
+                                <span class="precoCompras">500</span>
+                            </div>
+
+                            <div id="upgrade3">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-arrow-circle-up"></i> Atualização 1.0</p>
+                                <span class="precoCompras">2000</span>
+                            </div>
+
+                            <div id="upgrade4">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-mobile-alt"></i> Multiplataforma</p>
+                                <span class="precoCompras">5000</span>
+                            </div>
+
+                            <div id="upgrade5">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-search"></i> Pesquisa de mercado</p>
+                                <span class="precoCompras">5800</span>
+                            </div>
+
+                            <div id="upgrade6">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-arrow-circle-up"></i> Atualização 2.0</p>
+                                <span class="precoCompras">8800</span>
+                            </div>
+
+                            <div id="upgrade7">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-globe"></i> Modo online</p>
+                                <span class="precoCompras">14800</span>
+                            </div>
+
+                            <div id="upgrade8">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-search"></i> Pesquisa de mercado</p>
+                                <span class="precoCompras">16400</span>
+                            </div>
+
+                            <div id="upgrade9">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-arrow-circle-up"></i> Atualização 3.0</p>
+                                <span class="precoCompras">28400</span>
+                            </div>
+
+                            <div id="upgrade10">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-align-left"></i> Novos modos</p>
+                                <span class="precoCompras">31600</span>
+                            </div>
+
+                            <div id="upgrade11">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-search"></i> Pesquisa de mercado</p>
+                                <span class="precoCompras">55600</span>
+                            </div>
+
+                            <div id="upgrade12">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-arrow-circle-up"></i> Atualização 4.0</p>
+                                <span class="precoCompras">79600</span>
+                            </div>
+
+                            <div id="upgrade13">
+                                <p class="botoesComprasEUpgrades"><i class="fas fa-gamepad"></i> Produto final</p>
+                                <span class="precoCompras">100000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="click">  
+            <p id="nome">Nome indefinido</p>
+            <img src="imagens/baseInicial.png" id="imagem">
+            
+            <div id="infoClientes">
+                <span id="clientes"><i class="fas fa-user-plus"></i>  Usuários:
+                    <span id="valorClientes">0</span>
+                </span>
+                
+                <span id="aprovacoes"><i class="far fa-thumbs-up"></i>
+                    <span id="valorAprovacoes">0</span><span>%</span>
+                </span>
+
+                <span id="negacoes"><i class="far fa-thumbs-down"></i>
+                    <span id="valorNegacoes">0</span><span>%</span>
+                </span> 
+            </div>
+
+            <div id="painelPergunta" data-pontos="" data-correto="">
+                <p id="pergunta">texto</p>
+                <button class="botoesSimENao" id="sim">Sim</button>
+                <button class="botoesSimENao" id="nao">Não</button>
+            </div>    
+
+            <div id="alertaDinheiro">
+                <p>Você não tem dinheiro suficiente</p>
+                <img src="imagens/x.png" class="botaoFechar">
+            </div>
+
+            <div id="pontosInsuficientes">
+                <p>Você não possui pontos suficientes</p>
+                <img src="imagens/x.png" class="botaoFechar">
+            </div>
+
+            <div id="painelNome">
+                <p>Defina o nome da empresa</p>
+                <input type="text" id="inputNome"><br>
+                <button class="botoes" id="continuar">Continuar</button>
+                <button class="botoes" id="cancelar">Cancelar</button>
+            </div>
+
+            <div id="perdendoDinheiro">
+                <p>Você está perdendo dinheiro!</p>
+                <img src="imagens/x.png" class="botaoFechar">
+            </div>
+        </div>
+
+        <div id="info">
+            <div id="elementosInfo">
+                <p id="renda">Renda</p>
+                <p id="rendaValor">0</p> 
+
+                <p id="contador">Pontos</p>
+                <p id="xp">0</p>
+            
+                <p id="dica">Dicas</p>
+                <p id="campoDica"></p>
+            </div>
+
+            <span id="textoAcrescimo">+<span id="valorAcrescimo"></span>0</span></span>
+        </div>
+        
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

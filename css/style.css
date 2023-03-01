@@ -1,0 +1,468 @@
+body {
+    background-color: rgb(86, 115, 211);
+    margin-top: 10px;
+    margin-left: 19px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#acoes {
+    height: 30%;
+    width: 32%;
+    top: 20%;
+    border-top-left-radius: 39px;
+    border-bottom-left-radius: 40px;
+    float: left;
+    background-color: rgb(130, 151, 243) ;
+}
+
+#click {
+    height: 30%;
+    width: 35%;
+    top: 20%;
+    position: relative;
+    float: left;
+    background-color: rgb(149, 172, 248);
+}
+
+#info {
+    height: 30%;
+    width: 32%;
+    top: 20%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: relative;
+    float: left;
+    background-color: rgb(130, 151, 243) ;
+}
+
+#elementosInfo {
+    margin-top: -15px;
+}
+
+#infoClientes {
+    display: flex;
+    margin-top: 500px;
+    margin-bottom: 20px;
+}
+
+#clientes {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    border: 1px black solid;
+    margin-right: 25px;
+    margin-left: auto;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 17px;
+    background-color: rgb(84, 204, 84);
+}
+
+#aprovacoes {
+    width: 80px;
+    height: 25px;
+    padding: 5px;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin-top: -15px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 17px;
+    background-color: rgb(41, 233, 41);
+}
+
+#negacoes {
+    width: 80px;
+    height: 25px;
+    padding: 5px;
+    border: 1px black solid;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-top: -15px;
+    border-radius: 20px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 17px;
+    background-color: rgb(204, 84, 84);
+}
+
+#nome {
+    text-align: center;
+    margin-top: 30px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px black solid;
+    padding-top: 5px;
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#imagem {
+    height: 450px;
+    width: 470px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+#imagem:active {
+    height: 452px;
+    width: 472px;
+}
+
+#opcoes {
+    height: 210px;
+    width: 84.4%;
+    border: 1px black solid;
+    margin-left: 20px;
+    margin-bottom: 24px;
+    padding: 5px;
+    position: static;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+#botao1 {
+    position: relative;
+    width: 40%;
+    float: left;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    padding: 7px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(91, 197, 91);
+    cursor: pointer;
+}
+
+#botao2 {
+    position: left;
+    width: 40%;
+    float: left;
+    border-top: 1px solid black;
+    border-right: 1px black solid;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(91, 197, 91);
+    cursor: pointer;
+}
+
+#checkpoint {
+    height: 30px;
+    width: 90%;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(83, 243, 118);
+}
+
+#checkpointTexto {
+    margin-left: 0px;
+}
+
+#renda {
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    margin-left: auto;
+    border: 1px black solid;
+    margin-right: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(91, 197, 91);
+}
+
+#rendaValor {
+    width: 90%;
+    padding: 5px;
+    position: relative;
+    margin-left: auto;
+    border: 1px black solid;
+    margin-right: auto;
+    margin-top: -40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+#dica {
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    margin-left: auto;
+    border: 1px black solid;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(165, 184, 165);
+}
+
+#campoDica {
+    width: 90%;
+    height: 260px;
+    padding: 5px;
+    position: relative; 
+    margin-left: auto;
+    border: 1px black solid;
+    margin-right: auto;
+    margin-top: -40px;
+    margin-bottom: 44px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+#elementosAcoes {
+    margin-top: 30px;
+}
+
+#painelNome {
+    width: 80%;
+    height: 190px;
+    position: absolute;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: -410px;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: rgb(101, 101, 223);
+}
+
+#inputNome {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px;
+}
+
+#contador {
+    width: 90%;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+    margin-left: auto;
+    border: 1px black solid;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(63, 123, 146);
+}
+
+#xp {
+    width: 90%;
+    padding: 5px;
+    position: relative;
+    margin-left: auto;
+    border: 1px black solid;
+    margin-right: auto;
+    margin-top: -35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+#pontosInsuficientes {
+    width: 90%;
+    height: 100px;
+    position: absolute;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: -390px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: rgb(223, 101, 101);
+}
+
+#perdendoDinheiro {
+    width: 90%;
+    height: 100px;
+    position: absolute;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: -390px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: rgb(223, 101, 101);
+}
+
+#comprasEUpgrades {
+    margin-top: 20px;
+}
+
+#custoPivote {
+    margin-left: 20px;
+}
+
+#alertaDinheiro {
+    width: 90%;
+    height: 100px;
+    position: absolute;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: -390px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: rgb(223, 101, 101);
+}
+
+#painelPergunta {
+    width: 90%;
+    position: absolute;
+    margin-left: 13px;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: -450px;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: rgb(101, 101, 223);
+}
+
+#textoAcrescimo {
+    margin-top: -550px;
+    margin-left: 50px;
+    position: absolute;
+    color: rgb(37, 219, 37);
+    font-size: 30px;
+}
+
+.pontosXP {
+    width: 250px;
+    height: 50px;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+    background-color: rgb(165, 184, 165);
+}
+
+.icones {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+}
+
+.botoesSimENao {
+    width: 150px;
+    padding: 5px;
+    position: static;
+    cursor: pointer;
+}
+
+.textoIcon {
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    position: relative;
+    float: left;
+}
+
+.botoes {
+    width: 150px;
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.adicionar {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    float: left;
+    margin-left: 250px;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 2px;
+    cursor: pointer;
+    background-color: rgb(15, 180, 15);
+}
+
+.botoesComprasEUpgrades {
+    width: 85%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: rgb(167, 165, 165);
+}
+
+.precoCompras {
+    float: right;
+    font-size: 18px;
+    margin-top: -49px;
+    margin-right: 45px;
+    color: white;
+}
+
+.botaoFechar {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -10px;
+    cursor: pointer;
+}
